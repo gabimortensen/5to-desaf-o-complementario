@@ -47,26 +47,28 @@
         </div>
       </nav>
 
-      <div class="mb-3" style="margin-top: 50px; margin-left: 500px; margin-right: 100px;">
+    <form class="container" > 
+      <div class="mb-3" style="margin-top: 50px; margin-left: 40px;">
         <label for="exampleFormControlInput1" class="form-label"> Email </label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" style="width: 300px;">
       </div>
       
-      <div style="margin-top: 50px; margin-left: 500px; margin-right: 100px;">
+      <div class="mb-3" style="margin-top: 50px; margin-left: 40px;">
       <label for="exampleFormControlInput1" class="form-label" > Nombre y apellido </label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y apellido" style="width: 400px;">
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y apellido" style="width: 300px;">
       </div>
 
-      <div class="mb-3" style="margin-top: 50px; margin-left: 500px; margin-right: 100px;">
+      <div class="mb-3" style="margin-top: 50px; margin-left: 40px;">
         <label for="exampleFormControlTextarea1" class="form-label"> Mensaje </label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="width: 600px; height: 350px;"> </textarea>
+        <textarea class="form-control" rows="6" id="exampleFormControlTextarea1" style="justify-content: center;" > ... </textarea>
       </div>
-      
+    </form>
       
       <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: #D3E4CD; color: black; margin: solid #D3E4CD; margin-top: 20px; margin-left: 80px;">
     Suscribirse al newsletter
-  </button>
+       </button>
   
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true" >
@@ -80,7 +82,7 @@
           Me interesa 
         </div>
         <div class="modal-footer">
-            <button type="button" class="btn btn-primary"> Si :) </button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="background-color: #D3E4CD; color: black;"> Si :) </button>
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"> No :( </button>
           
         </div>
